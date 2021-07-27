@@ -1,0 +1,27 @@
+{
+  "app": {
+    "bundleName": "com.yuqirong.searchbarview",
+    "vendor": "yuqirong",
+    "version": {
+      "code": 1000000,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 5,
+      "target": 5,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.yuqirong.flexiblesearchbarview",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "flexiblesearchbarview",
+      "moduleType": "har"
+    }
+  }
+}

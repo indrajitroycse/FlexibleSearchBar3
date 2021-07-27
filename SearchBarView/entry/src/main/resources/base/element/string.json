@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "SearchBarView"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "height_sbv",
+      "value": "50vp"
+    },
+    {
+      "name": "margin_sbv",
+      "value": "10vp"
+    },
+    {
+      "name": "list_text_height",
+      "value": "60vp"
+    },
+    {
+      "name": "list_text_margin",
+      "value": "10vp"
+    },
+    {
+      "name": "list_text_size",
+      "value": "30fp"
+    },
+    {
+      "name": "line_component_height",
+      "value": "2vp"
+    },
+    {
+      "name": "component_color",
+      "value": "#000000"
+    },
+    {
+      "name": "font_family",
+      "value": "monospace"
+    },
+    {
+      "name": "enter_text",
+      "value": "Enter Text"
+    }
+  ]
+}

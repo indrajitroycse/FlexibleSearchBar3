@@ -1,0 +1,54 @@
+{
+  "strarray": [
+    {
+      "name": "array",
+      "value": [
+        {
+          "value": "AAA"
+        },
+        {
+          "value": "BBB"
+        },
+        {
+          "value": "CCC"
+        },
+        {
+          "value": "DDD"
+        },
+        {
+          "value": "EEE"
+        },
+        {
+          "value": "FFF"
+        },
+        {
+          "value": "GGG"
+        },
+        {
+          "value": "HHH"
+        },
+        {
+          "value": "III"
+        },
+        {
+          "value": "JJJ"
+        },
+        {
+          "value": "KKK"
+        },
+        {
+          "value": "LLL"
+        },
+        {
+          "value": "MMM"
+        },
+        {
+          "value": "NNN"
+        },
+        {
+          "value": "OOO"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+apply plugin:'checkstyle'
+
+ohos {
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 5
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+    
+}
+
+dependencies {
+    implementation project(':flexiblesearchbarview')
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testImplementation 'junit:junit:4.13'
+    ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.100'
+}
+
+decc {
+    supportType = ['html','xml']
+}
+
+checkstyle{
+    toolVersion = '8.43'
+}
+
+task checkstyle(type:Checkstyle) {
+    configFile new File(rootDir, "config/checkstyle/rules.xml")
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+    exclude '**/R.java'
+    exclude '**/BuildConfig.java'
+    classpath = files()
+}

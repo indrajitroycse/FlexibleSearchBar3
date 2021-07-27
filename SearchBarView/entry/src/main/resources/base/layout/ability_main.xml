@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="$graphic:background_ability_main"
+    >
+
+
+    <com.yuqirong.flexiblesearchbarview.SearchBarView
+        ohos:id="$+id:flexible_search_bar_view"
+        ohos:height="$string:height_sbv"
+        ohos:width="match_parent"
+        ohos:margin="$string:margin_sbv"
+        />
+
+    <ListContainer
+        ohos:id="$+id:list"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:white_background">
+
+    </ListContainer>
+
+
+
+</DirectionalLayout>

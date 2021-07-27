@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "FlexibleSearchBarView"
+    },
+    {
+      "name": "search_content",
+      "value": "Enter Search Content"
+    }
+  ]
+}
